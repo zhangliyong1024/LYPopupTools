@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B401B262303CF020003F53B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B401B252303CF020003F53B /* AppDelegate.m */; };
+		2B401B292303CF020003F53B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B401B282303CF020003F53B /* ViewController.m */; };
+		2B401B2C2303CF020003F53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B401B2A2303CF020003F53B /* Main.storyboard */; };
+		2B401B2E2303CF030003F53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B401B2D2303CF030003F53B /* Assets.xcassets */; };
+		2B401B312303CF030003F53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B401B2F2303CF030003F53B /* LaunchScreen.storyboard */; };
+		2B401B342303CF030003F53B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B401B332303CF030003F53B /* main.m */; };
+		2BDD6B582304301400276206 /* NSBundle+LYPopupTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD6B572304301400276206 /* NSBundle+LYPopupTools.m */; };
+		2BDD6B5B2304302900276206 /* MBProgressHUD+LYPopupTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD6B5A2304302900276206 /* MBProgressHUD+LYPopupTools.m */; };
+		2BDD6B632304375800276206 /* LYPopupTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2BDD6B622304375800276206 /* LYPopupTools.bundle */; };
+		45B2627C47F6CD8A469CB854 /* Pods_LYPopupTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDA3CA49D1D832134225BEF /* Pods_LYPopupTools.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B401B212303CF020003F53B /* LYPopupTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPopupTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B401B242303CF020003F53B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B401B252303CF020003F53B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B401B272303CF020003F53B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B401B282303CF020003F53B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B401B2B2303CF020003F53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B401B2D2303CF030003F53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B401B302303CF030003F53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B401B322303CF030003F53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B401B332303CF030003F53B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BDD6B4B23042D8700276206 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2BDD6B4C23042D8700276206 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2BDD6B562304301400276206 /* NSBundle+LYPopupTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LYPopupTools.h"; sourceTree = "<group>"; };
+		2BDD6B572304301400276206 /* NSBundle+LYPopupTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LYPopupTools.m"; sourceTree = "<group>"; };
+		2BDD6B592304302900276206 /* MBProgressHUD+LYPopupTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYPopupTools.h"; sourceTree = "<group>"; };
+		2BDD6B5A2304302900276206 /* MBProgressHUD+LYPopupTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYPopupTools.m"; sourceTree = "<group>"; };
+		2BDD6B622304375800276206 /* LYPopupTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYPopupTools.bundle; sourceTree = "<group>"; };
+		2BDD6B6523043B5E00276206 /* LYPopupTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPopupTools.h; sourceTree = "<group>"; };
+		4A12EEF891FD8B7A4D65C9AF /* Pods-LYPopupTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPopupTools.release.xcconfig"; path = "Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools.release.xcconfig"; sourceTree = "<group>"; };
+		5E601EC2B813BC85F37D471B /* Pods-LYPopupTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPopupTools.debug.xcconfig"; path = "Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools.debug.xcconfig"; sourceTree = "<group>"; };
+		7BDA3CA49D1D832134225BEF /* Pods_LYPopupTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPopupTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B401B1E2303CF020003F53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B2627C47F6CD8A469CB854 /* Pods_LYPopupTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B401B182303CF020003F53B = {
+			isa = PBXGroup;
+			children = (
+				2B401B232303CF020003F53B /* LYPopupTools */,
+				2B401B222303CF020003F53B /* Products */,
+				F1B7C45787D315ADF35CFCF6 /* Pods */,
+				3B314EED2E2074E96BF425CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B401B222303CF020003F53B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B401B212303CF020003F53B /* LYPopupTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B401B232303CF020003F53B /* LYPopupTools */ = {
+			isa = PBXGroup;
+			children = (
+				2B401B3A2303CF9B0003F53B /* LYPopupTools */,
+				2B401B242303CF020003F53B /* AppDelegate.h */,
+				2B401B252303CF020003F53B /* AppDelegate.m */,
+				2B401B272303CF020003F53B /* ViewController.h */,
+				2B401B282303CF020003F53B /* ViewController.m */,
+				2B401B2A2303CF020003F53B /* Main.storyboard */,
+				2B401B2D2303CF030003F53B /* Assets.xcassets */,
+				2B401B2F2303CF030003F53B /* LaunchScreen.storyboard */,
+				2B401B322303CF030003F53B /* Info.plist */,
+				2B401B332303CF030003F53B /* main.m */,
+			);
+			path = LYPopupTools;
+			sourceTree = "<group>";
+		};
+		2B401B3A2303CF9B0003F53B /* LYPopupTools */ = {
+			isa = PBXGroup;
+			children = (
+				2BDD6B6523043B5E00276206 /* LYPopupTools.h */,
+				2BDD6B562304301400276206 /* NSBundle+LYPopupTools.h */,
+				2BDD6B572304301400276206 /* NSBundle+LYPopupTools.m */,
+				2BDD6B592304302900276206 /* MBProgressHUD+LYPopupTools.h */,
+				2BDD6B5A2304302900276206 /* MBProgressHUD+LYPopupTools.m */,
+				2BDD6B642304376000276206 /* Resources */,
+			);
+			path = LYPopupTools;
+			sourceTree = "<group>";
+		};
+		2BDD6B642304376000276206 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BDD6B622304375800276206 /* LYPopupTools.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B314EED2E2074E96BF425CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BDA3CA49D1D832134225BEF /* Pods_LYPopupTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1B7C45787D315ADF35CFCF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E601EC2B813BC85F37D471B /* Pods-LYPopupTools.debug.xcconfig */,
+				4A12EEF891FD8B7A4D65C9AF /* Pods-LYPopupTools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B401B202303CF020003F53B /* LYPopupTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B401B372303CF030003F53B /* Build configuration list for PBXNativeTarget "LYPopupTools" */;
+			buildPhases = (
+				9E5D893519900844F55332FF /* [CP] Check Pods Manifest.lock */,
+				2B401B1D2303CF020003F53B /* Sources */,
+				2B401B1E2303CF020003F53B /* Frameworks */,
+				2B401B1F2303CF020003F53B /* Resources */,
+				E2DC4B6D7EF773FB2090AC2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPopupTools;
+			productName = LYPopupTools;
+			productReference = 2B401B212303CF020003F53B /* LYPopupTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B401B192303CF020003F53B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = zhangliyong;
+				TargetAttributes = {
+					2B401B202303CF020003F53B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2B401B1C2303CF020003F53B /* Build configuration list for PBXProject "LYPopupTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 2B401B182303CF020003F53B;
+			productRefGroup = 2B401B222303CF020003F53B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B401B202303CF020003F53B /* LYPopupTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B401B1F2303CF020003F53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B401B312303CF030003F53B /* LaunchScreen.storyboard in Resources */,
+				2BDD6B632304375800276206 /* LYPopupTools.bundle in Resources */,
+				2B401B2E2303CF030003F53B /* Assets.xcassets in Resources */,
+				2B401B2C2303CF020003F53B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E5D893519900844F55332FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYPopupTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DC4B6D7EF773FB2090AC2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B401B1D2303CF020003F53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B401B292303CF020003F53B /* ViewController.m in Sources */,
+				2B401B342303CF030003F53B /* main.m in Sources */,
+				2B401B262303CF020003F53B /* AppDelegate.m in Sources */,
+				2BDD6B582304301400276206 /* NSBundle+LYPopupTools.m in Sources */,
+				2BDD6B5B2304302900276206 /* MBProgressHUD+LYPopupTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B401B2A2303CF020003F53B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B401B2B2303CF020003F53B /* Base */,
+				2BDD6B4B23042D8700276206 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B401B2F2303CF030003F53B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B401B302303CF030003F53B /* Base */,
+				2BDD6B4C23042D8700276206 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B401B352303CF030003F53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B401B362303CF030003F53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B401B382303CF030003F53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E601EC2B813BC85F37D471B /* Pods-LYPopupTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JSZURUYS;
+				INFOPLIST_FILE = LYPopupTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.liyong.LYPopupTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B401B392303CF030003F53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A12EEF891FD8B7A4D65C9AF /* Pods-LYPopupTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JSZURUYS;
+				INFOPLIST_FILE = LYPopupTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.liyong.LYPopupTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B401B1C2303CF020003F53B /* Build configuration list for PBXProject "LYPopupTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B401B352303CF030003F53B /* Debug */,
+				2B401B362303CF030003F53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B401B372303CF030003F53B /* Build configuration list for PBXNativeTarget "LYPopupTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B401B382303CF030003F53B /* Debug */,
+				2B401B392303CF030003F53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B401B192303CF020003F53B /* Project object */;
+}

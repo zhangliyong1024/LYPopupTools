@@ -1,0 +1,11 @@
+/* 
+  LYPopupTools.strings
+  LYPopupTools
+
+  Created by Polly polly on 8/14/19.
+  Copyright © 2019 zhangliyong. All rights reserved.
+*/
+
+"LYPopupToosLoadingText" = "加载中...";
+"LYPopupToosSuccessText" = "成功";
+"LYPopupToosFailureText" = "失败";
