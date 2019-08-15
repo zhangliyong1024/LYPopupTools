@@ -35,14 +35,14 @@
     
 //    [MBProgressHUD showMessage:nil onView:self.view result:YES completion:nil];
     
-//    [MBProgressHUD showMessage:@"hello world" onView:self.view result:YES completion:nil];
+    [MBProgressHUD showMessage:@"hello world" onView:self.view result:YES completion:nil];
     
 //    [MBProgressHUD showMessage:@"hello world" onView:self.view.window];
     
-    [MBProgressHUD showMessage:@"服务器异常"
-                        onView:self.view
-                      position:LYMBProgressPositionBottom
-                    completion:nil];
+//    [MBProgressHUD showMessage:@"服务器异常"
+//                        onView:self.view
+//                      position:LYMBProgressPositionBottom
+//                    completion:nil];
 }
 
 

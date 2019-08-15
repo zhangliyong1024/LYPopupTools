@@ -12,10 +12,16 @@
 @implementation MBProgressHUD (LYPopupTools)
 
 + (MBProgressHUD *)startLoading:(UIView *)view {
+    return [self startLoading:view
+                      message:[NSBundle ly_localizedStringForKey:LYPopupToosLoadingText]];
+}
+
++ (MBProgressHUD *)startLoading:(UIView *)view
+                        message:(NSString *)message {
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     [hud setMode:MBProgressHUDModeIndeterminate];
     [hud setContentColor:[UIColor darkGrayColor]];
-    hud.label.text = [NSBundle ly_localizedStringForKey:LYPopupToosLoadingText];
+    hud.label.text = message?:[NSBundle ly_localizedStringForKey:LYPopupToosLoadingText];
     
     return hud;
 }

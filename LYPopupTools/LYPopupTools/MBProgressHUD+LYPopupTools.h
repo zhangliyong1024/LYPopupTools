@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (MBProgressHUD *)startLoading:(UIView *)view;
 
++ (MBProgressHUD *)startLoading:(UIView *)view
+                        message:(nullable NSString *)message;
+
 + (void)finishLoading:(MBProgressHUD *)hud;
 
 + (void)finishLoading:(MBProgressHUD *)hud
