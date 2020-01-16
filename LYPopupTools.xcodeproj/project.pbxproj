@@ -17,6 +17,7 @@
 		2BDD6B5B2304302900276206 /* MBProgressHUD+LYPopupTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD6B5A2304302900276206 /* MBProgressHUD+LYPopupTools.m */; };
 		2BDD6B632304375800276206 /* LYPopupTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2BDD6B622304375800276206 /* LYPopupTools.bundle */; };
 		45B2627C47F6CD8A469CB854 /* Pods_LYPopupTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDA3CA49D1D832134225BEF /* Pods_LYPopupTools.framework */; };
+		A83395CB23D03CBA00434039 /* LYBasePopup.m in Sources */ = {isa = PBXBuildFile; fileRef = A83395CA23D03CBA00434039 /* LYBasePopup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		4A12EEF891FD8B7A4D65C9AF /* Pods-LYPopupTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPopupTools.release.xcconfig"; path = "Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools.release.xcconfig"; sourceTree = "<group>"; };
 		5E601EC2B813BC85F37D471B /* Pods-LYPopupTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYPopupTools.debug.xcconfig"; path = "Target Support Files/Pods-LYPopupTools/Pods-LYPopupTools.debug.xcconfig"; sourceTree = "<group>"; };
 		7BDA3CA49D1D832134225BEF /* Pods_LYPopupTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYPopupTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83395C923D03CBA00434039 /* LYBasePopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBasePopup.h; sourceTree = "<group>"; };
+		A83395CA23D03CBA00434039 /* LYBasePopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBasePopup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				2BDD6B6523043B5E00276206 /* LYPopupTools.h */,
+				A83395C923D03CBA00434039 /* LYBasePopup.h */,
+				A83395CA23D03CBA00434039 /* LYBasePopup.m */,
 				2BDD6B562304301400276206 /* NSBundle+LYPopupTools.h */,
 				2BDD6B572304301400276206 /* NSBundle+LYPopupTools.m */,
 				2BDD6B592304302900276206 /* MBProgressHUD+LYPopupTools.h */,
@@ -246,6 +251,7 @@
 			files = (
 				2B401B292303CF020003F53B /* ViewController.m in Sources */,
 				2B401B342303CF030003F53B /* main.m in Sources */,
+				A83395CB23D03CBA00434039 /* LYBasePopup.m in Sources */,
 				2B401B262303CF020003F53B /* AppDelegate.m in Sources */,
 				2BDD6B582304301400276206 /* NSBundle+LYPopupTools.m in Sources */,
 				2BDD6B5B2304302900276206 /* MBProgressHUD+LYPopupTools.m in Sources */,

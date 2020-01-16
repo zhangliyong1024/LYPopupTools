@@ -7,6 +7,7 @@
 //
 
 #import "NSBundle+LYPopupTools.h"
+#import "LYBasePopup.h"
 
 NSString *const LYPopupToosLoadingText = @"LYPopupToosLoadingText";
 NSString *const LYPopupToosSuccessText = @"LYPopupToosSuccessText";
@@ -17,9 +18,7 @@ NSString *const LYPopupToosFailureText = @"LYPopupToosFailureText";
 + (instancetype)ly_popupToolsBundle {
     static NSBundle *popupToolsBundle = nil;
     if (popupToolsBundle == nil) {
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"LYPopupTools"
-                                                               ofType:@"bundle"];
-        popupToolsBundle = [NSBundle bundleWithPath:bundlePath];
+        popupToolsBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[LYBasePopup class]] pathForResource:@"LYPopupTools" ofType:@"bundle"]];
     }
     
     return popupToolsBundle;
